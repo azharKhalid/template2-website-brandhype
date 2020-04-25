@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.carousel {
+  width: 100%;
+  min-height: 90%;
+}
+.carousel-item {
+  height: 80vh;
+}
+.carousel-item h1 {
+  color: brown;
+}
+.carousel-item .border {
+  width: 25%;
+  margin: 0 auto;
+}
+.carousel img {
+  width: 100%;
+}
+.carousel-item .btn {
+  background-color: brown;
+  color: white;
+}
+.image1 {
+  background: url("../img/birdalmakeup.jpg");
+}
+.image2 {
+  background: url("../img/makeupLesson.jpg");
+}
+.image3 {
+  background: url("../img/specialMakeup.jpg");
+}
+.img-prop {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+}
+.roundImage1 {
+  background: url("../img/makeUp1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 50%;
+}
+.roundImage2 {
+  background: url("../img/makeUp2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 50%;
+}
+.roundImage3 {
+  background: url("../img/makeUp3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 50%;
+}
+.roundImage4 {
+  background: url("../img/makeUp4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 50%;
+}
+.cosmeticBorder {
+  width: 20%;
+  border-bottom: 5px solid black;
+}
+
+.picsSection {
+  width: 100%;
+}
+.bg1 {
+  background: url("../img/pic1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg2 {
+  background: url("../img/pic2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg3 {
+  background: url("../img/pic3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg4 {
+  background: url("../img/pic4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg5 {
+  background: url("../img/pic5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg6 {
+  background: url("../img/pic6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.products button {
+  border-radius: 50px;
+}
+.bg7 {
+  background: url("../img/perfume1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.bg8 {
+  background: url("../img/perfume2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.bg9 {
+  background: url("../img/perfume3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.bg10 {
+  background: url("../img/perfume4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.bg11 {
+  background: url("../img/perfume5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.bg12 {
+  background: url("../img/perfume6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.bg13 {
+  background: url("../img/perfume7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.bg14 {
+  background: url("../img/perfume8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-radius: 15px;
+}
+.perfumes p {
+  font-size: 1rem;
+}
+.black {
+  background: black;
+  color: white;
+  border-radius: 20px;
+}
+.bg15 {
+  background: url("../img/brand1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg16 {
+  background: url("../img/brand2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg17 {
+  background: url("../img/brand3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg18 {
+  background: url("../img/brand4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.bg19 {
+  background: url("../img/brand5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.services {
+  background: #f9e5db;
+}
+.servicePrices {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20%;
+}
+.bg20 {
+  background: url("../img/blowKisses.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 62vh;
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
+}
+.fontColor {
+  color: #fdab48;
+}
+.client {
+  background: url("../img/clientBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+.clientReview {
+  width: 85%;
+  margin: 0 auto;
+}
+.clientImage {
+  width: 100%;
+  margin: 60px auto;
+}
+.bg21 {
+  background: url("../img/review1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.bg22 {
+  background: url("../img/review2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.bg23 {
+  background: url("../img/review3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 50px;
+}
+.smallFont {
+  font-size: 0.7rem;
+}
+.client .pad {
+  margin-bottom: -5px;
+}
+.input {
+  border-radius: 25px;
+}
+.input2 {
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.newsletter {
+  background: #9b299b;
+}
+.borderFooter {
+  width: 20%;
+  border-bottom: 5px solid black;
+  margin-bottom: 10px;
+}
+.footer p {
+  font-size: 0.8rem;
+}
+.footerText {
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 600px) {
+  .carousel-indicators {
+    margin-bottom: 250px;
+  }
+  .testimonials {
+    margin-top: -247px;
+  }
+}

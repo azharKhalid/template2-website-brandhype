@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- font awesome -->
+    <script src="js/all.js"></script>
+    <title>Beauty Shop</title>
+  </head>
+  <body>
+    <!--start top info header-->
+    <section class="topInfoHeader">
+      <div class="container-fluid bg-dark">
+        <div class="container text-white py-2 d-flex justify-content-between">
+          <div class="rightInfo">
+            <span><i class="fas fa-phone"></i> (00) 000111222</span>
+            <span class="pl-2"
+              ><i class="fas fa-envelope"></i> info@somedomain.com</span
+            >
+          </div>
+          <div class="leftInfo">
+            <span
+              ><i class="fas fa-location-arrow mr-1"></i>Store Location</span
+            >
+            <span class="pl-2">Track Your Order</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end top info header-->
+    <!--Beauty Icon Header nav-->
+    <section class="beautyIconHeader border-bottom">
+      <div class="container-fluid">
+        <div class="container text-dark py-2 d-flex justify-content-between">
+          <div class="rightInfo">
+            <img
+              class="img-fluid"
+              src="./img/beautyShopLogo.png"
+              alt=""
+              width="270px"
+              height="100px"
+            />
+          </div>
+          <div class="leftInfo py-4 d-none d-md-block">
+            <span><i class="fas fa-shopping-cart"></i> 0 Item</span>
+            <span class="pl-2">USD <i class="fas fa-chevron-down"></i></span>
+            <span class="pl-2"><i class="fas fa-search"></i></span>
+            <span class="pl-2"><i class="far fa-user"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of Beauty Icon Header nav-->
+    <!--Navbar section starts-->
+    <nav class="navbar py-3 navbar-light navbar-expand-sm" id="navBar">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarLinks"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLinks">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-2">
+              <a href="#navBar" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#collection" class="nav-link"
+                >COLLECTION<i class="fas fa-caret-down ml-1"></i
+              ></a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#cosmetics" class="nav-link"
+                >COSMETICS<i class="fas fa-caret-down ml-1"></i
+              ></a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#shops" class="nav-link"
+                >SHOPS<i class="fas fa-caret-down ml-1"></i
+              ></a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#makeup" class="nav-link"
+                >MAKEUP<i class="fas fa-caret-down ml-1"></i
+              ></a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#tools" class="nav-link"
+                >TOOLS<i class="fas fa-caret-down ml-1"></i
+              ></a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#pages" class="nav-link"
+                >PAGES<i class="fas fa-caret-down ml-1"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar section ends-->
+    <!--main header start-->
+    <!--Carousel start-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-interval="false"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleCaptions"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/mainheader2.jpg" class="" alt="..." />
+          <div class="carousel-caption d-none d-md-block text-dark">
+            <h1>KIERA'S SECRET</h1>
+            <hr class="border my-3" />
+            <p class="pb-5">
+              Skin Whitening Cream
+            </p>
+            <div class="btn mb-5">View Collection</div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/mainheader3.jpg" class="" alt="..." />
+          <div
+            class="carousel-caption d-none d-md-block d-felx align-self-center text-dark"
+          >
+            <h1>KIERA'S SECRET</h1>
+            <hr class="border my-3" />
+            <p class="pb-5">
+              Skin Whitening Cream
+            </p>
+            <div class="btn mb-5">View Collection</div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/mainheader1.jpg" class="" alt="..." />
+          <div
+            class="carousel-caption d-none d-md-block d-felx align-self-center text-dark"
+          >
+            <h1>KIERA'S SECRET</h1>
+            <hr class="border my-3" />
+            <p class="pb-5">
+              Skin Whitening Cream
+            </p>
+            <div class="btn mb-5">View Collection</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--carousel ends-->
+    <!--main header ends-->
+    <!--cosmetics section start-->
+    <section class="mt-3">
+      <div class="testimonials container py-5">
+        <div class="row text-center">
+          <div class="col-sm">
+            <div class="image1 img-prop"></div>
+            <h4 class="pt-4">Bridal Makeup</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+              eveniet id ad nostrum iure culpa.
+            </p>
+          </div>
+          <div class="col-sm">
+            <div class="image2 img-prop"></div>
+            <h4 class="pt-4">Makeup Lessons</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+              eveniet id ad nostrum iure culpa.
+            </p>
+          </div>
+          <div class="col-sm">
+            <div class="image3 img-prop"></div>
+            <h4 class="pt-4">Special Makeup</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+              eveniet id ad nostrum iure culpa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--cosmetics section ends-->
+    <!--Special collection start-->
+    <section class="specialCollection" id="collection">
+      <h1 class="text-center py-2">Our Special Collection</h1>
+      <h6 class="text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+        perferendis.
+      </h6>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-sm col-md-6">
+            <div class="row pt-5">
+              <div class="roundImage1 col-sm"></div>
+              <div class="col-sm">
+                <div class="d-flex justify-content-start">
+                  <div class="cosmeticBorder mb-2"></div>
+                  <div class="pl-3">COSMETICS</div>
+                </div>
+                <h2>Lipstick</h2>
+                <p>Lorem is simply dummy text of printing</p>
+                <span
+                  ><i class="fas fa-dollar-sign"></i> Starting Price : $10</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6">
+            <div class="row">
+              <div class="roundImage2 col-sm"></div>
+              <div class="col-sm">
+                <div class="d-flex justify-content-start">
+                  <div class="cosmeticBorder mb-2"></div>
+                  <div class="pl-3">COSMETICS</div>
+                </div>
+                <h2>Cream</h2>
+                <p>Lorem is simply dummy text of printing</p>
+                <span
+                  ><i class="fas fa-dollar-sign"></i> Starting Price : $10</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm">
+            <div class="row pt-5">
+              <div class="roundImage3 col-sm"></div>
+              <div class="col-sm">
+                <div class="d-flex justify-content-start">
+                  <div class="cosmeticBorder mb-2"></div>
+                  <div class="pl-3">COSMETICS</div>
+                </div>
+                <h2>Nail</h2>
+                <p>Lorem is simply dummy text of printing</p>
+                <span
+                  ><i class="fas fa-dollar-sign"></i> Starting Price : $10</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm">
+            <div class="row">
+              <div class="roundImage4 col-sm"></div>
+              <div class="col-sm">
+                <div class="d-flex justify-content-start">
+                  <div class="cosmeticBorder mb-2"></div>
+                  <div class="pl-3">COSMETICS</div>
+                </div>
+                <h2>Brushes</h2>
+                <p>Lorem is simply dummy text of printing</p>
+                <span
+                  ><i class="fas fa-dollar-sign"></i> Starting Price : $10</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Special collection ends-->
+    <!--Pics section starts-->
+    <section class="picsSections" id="cosmetics">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm m-1 bg1"></div>
+          <div class="col-sm m-1 bg2"></div>
+          <div class="col-sm m-1 bg3"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm m-1 bg4"></div>
+          <div class="col-sm m-1 bg5"></div>
+          <div class="col-sm m-1 bg6"></div>
+        </div>
+      </div>
+    </section>
+    <!--Pics section ends-->
+    <!--product section starts-->
+    <section class="products py-5" id="shops">
+      <div class="container text-center">
+        <h6 class="font-italic">America's perfume Site</h6>
+        <h2 font-weight-bold><strong>Our Products</strong></h2>
+        <div class="btn">
+          <button type="button" class="btn mx-2 btn-outline-secondary">
+            Women's
+          </button>
+          <button type="button" class="btn mx-2 btn-outline-secondary">
+            Men's
+          </button>
+          <button type="button" class="btn mx-2 btn-outline-secondary">
+            Kid's
+          </button>
+          <button type="button" class="btn mx-2 btn-outline-secondary">
+            Top Seller
+          </button>
+        </div>
+        <div class="perfumes py-3">
+          <div class="row">
+            <div class="col-sm">
+              <div class="bg7"></div>
+              <p class="pt-2"><strong>Far Away Rebel</strong></p>
+              <span
+                ><i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i
+              ></span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+            <div class="col-sm">
+              <div class="bg8"></div>
+              <p class="py-2"><strong>Avon Far Away Gold</strong></p>
+              <span>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+              </span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+            <div class="col-sm">
+              <div class="bg9"></div>
+              <p class="py-2"><strong>Avon Far Away Gold Belta</strong></p>
+              <span
+                ><i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i
+              ></span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+            <div class="col-sm">
+              <div class="bg10"></div>
+              <p class="py-2"><strong>Blackpink Avon</strong></p>
+              <span>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+              </span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <div class="bg11"></div>
+              <p class="py-2"><strong>Avon Far Away</strong></p>
+              <span>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+              </span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+            <div class="col-sm">
+              <div class="bg12"></div>
+              <p class="py-2"><strong>Avon Soft Musk Pink</strong></p>
+              <span
+                ><i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i
+              ></span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+            <div class="col-sm">
+              <div class="bg13"></div>
+              <p class="py-2"><strong>Avon Musk Rose</strong></p>
+              <span>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+                <i class="far fa-star mb-3"></i>
+              </span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+            <div class="col-sm">
+              <div class="bg14"></div>
+              <p class="py-2"><strong>Avon My Everything</strong></p>
+              <span
+                ><i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i>
+                <i class="fas fa-star mb-3"></i
+              ></span>
+              <p class="font-italic mb-4"><sup>$</sup>155.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn black">
+          View All brands
+          <span><i class="ml-2 fas fa-arrow-circle-right"></i></span>
+        </div>
+      </div>
+    </section>
+    <!--product section ends-->
+    <!--topBrands starts-->
+    <section class="topBrands" id="makeup">
+      <div class="container text-center">
+        <h2><strong>Top Brands</strong></h2>
+        <p>Feature Brands to display Brands on any pages demo</p>
+        <span class="d-none d-md-block"
+          ><span>-----------------------------------</span>
+          <i class="mx-2 pt-4 fab fa-envira fa-3x"></i>
+          <span>-----------------------------------</span></span
+        >
+        <div class="mt-5 row py-4 border-top border-bottom">
+          <div class="col-sm bg15 mr-2 mb-2"></div>
+          <div class="col-sm bg16 mr-2 mb-2"></div>
+          <div class="col-sm bg17 mr-2 mb-2"></div>
+          <div class="col-sm bg18 mr-2 mb-2"></div>
+          <div class="col-sm bg19 ml-2 mb-2"></div>
+        </div>
+      </div>
+    </section>
+    <!--topBrands ends-->
+    <!--Services section start-->
+    <section class="services mt-4" id="tools">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm service">
+            <div class="servicePrices">
+              <div class="d-flex justify-content-start">
+                <div class="cosmeticBorder mb-2"></div>
+                <div class="pl-3">COSMETICS</div>
+              </div>
+              <h1 class="py-3 fontColor">Services and Prices</h1>
+              <p>
+                Full Body Makeup Package<span class="font-italic mb-4 fontColor"
+                  >.....................................<sup>$</sup>155.00</span
+                >
+              </p>
+              <p>
+                Wedding Beauty New<span class="font-italic mb-4 fontColor"
+                  >.................................................<sup>$</sup>105.00</span
+                >
+              </p>
+              <p>
+                Personal Makeup Artist<span class="font-italic mb-4 fontColor"
+                  >...............................................<sup>$</sup>60.00</span
+                >
+              </p>
+              <p>
+                Premium Treatment<span class="font-italic mb-4 fontColor"
+                  >.....................................................<sup>$</sup>48.00</span
+                >
+              </p>
+              <p>
+                Cucumber Mask<span class="font-italic mb-4 fontColor"
+                  >...............................................................<sup>$</sup>70.00</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="bg20"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Services section ends-->
+    <!--Client review start-->
+    <section class="client mt-3">
+      <div class="container-fluid text-center text-white">
+        <div class="clientReview p-5">
+          <p class="font-italic smallFont pad">America's perfume Site</p>
+          <h2 class="font-italic pb-2">What's Client Say ?</h2>
+          <p class="py-4 smallFont">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+            eum assumenda, molestiae a accusamus iste sunt, doloribus facere
+            facilis, nisi earum qui adipisci quis repellat dolores. Natus
+            maiores eveniet vitae.
+          </p>
+          <h5>Jane Doe</h5>
+          <p class="smallFont">Designer</p>
+          <div class="text-center clientImage">
+            <span><i class="fas fa-chevron-circle-left"></i></span>
+            <span class="bg21 p-4"></span>
+            <span class="bg22 mx-1 p-5"></span>
+            <span class="bg23 p-4"></span>
+            <span><i class="fas fa-chevron-circle-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Client review end-->
+    <!--Newsletter start-->
+    <section class="newsletterCont mt-3">
+      <div class="container newsletter text-white pt-4">
+        <div class="row py-3">
+          <div class="col-sm px-5">
+            <h4><strong>SUBSCRIBE TO OUR NEWSLETTER</strong></h4>
+            <p>Sign up for newsletter and Get upto 50% off</p>
+          </div>
+          <div class="col-sm px-5">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control input"
+                placeholder="Email here..."
+                aria-label="Recipient's username"
+                aria-describedby="basic-addon2"
+              />
+              <div class="input-group-append">
+                <span
+                  class="input-group-text bg-dark text-white input2"
+                  id="basic-addon2"
+                  >Subscribe</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Newsletter end-->
+    <!--footer section starts-->
+    <section class="footer my-5" id="pages">
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col-sm">
+            <h3><strong>stylexpo</strong></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              facere quae deleniti architecto aspernatur, nostrum temporibus
+              nisi dolores debitis fuga.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque, quam.
+            </p>
+          </div>
+          <div class="col-sm">
+            <h3 class="font-weight-bold">HELP</h3>
+            <div class="borderFooter"></div>
+            <p>Gift Cards</p>
+            <p>Order Status</p>
+            <p>Free Shipping</p>
+            <p>Return & Exchange</p>
+            <p>International</p>
+          </div>
+          <div class="col-sm">
+            <h3><strong>GUIDANCE</strong></h3>
+            <div class="borderFooter"></div>
+            <p>Delivery Information</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Contact</p>
+            <p>Sitemap</p>
+          </div>
+          <div class="col-sm">
+            <h3><strong>ADDRESS</strong></h3>
+            <div class="borderFooter"></div>
+            <p>
+              <span><i class="fas fa-map-marker-alt mr-2"></i></span>
+              150-A Appolo apartment, Hopewell Junction Allen st Road, New
+              York-405001
+            </p>
+            <p>
+              <span><i class="fas fa-envelope mr-2"></i></span>
+              info@services@stylexpo.com
+            </p>
+            <p>
+              <span><i class="fas fa-phone mr-2"></i></span>(+91) 9834567890
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer section ends-->
+    <!--footer icons start-->
+    <section class="footerIcon py-4 border-top border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-right">
+            <span>Follow us on:</span
+            ><span><i class="fab fa-facebook-f ml-4"></i></span
+            ><span><i class="fab fa-twitter ml-4"></i></span>
+            <span><i class="fab fa-linkedin ml-4"></i></span
+            ><span><i class="fab fa-instagram ml-4"></i></span>
+            <span><i class="fab fa-pinterest ml-4"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer icons end-->
+    <!--footer navbar start-->
+    <section class="footerNav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center py-4 footerText">
+            <span>About Us</span>
+            <span class="ml-2">Contact Us</span>
+            <span class="ml-2">Customer</span>
+            <span class="ml-2">Service</span>
+            <span class="ml-2">Privacy</span>
+            <span class="ml-2">Policy</span>
+            <span class="ml-2">Accessibility</span>
+            <span class="ml-2">Directory</span>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-sm text-center">
+            <span class=""
+              ><img src="./img/footer1.webp" alt="" width="50px" height="35px"
+            /></span>
+            <span class="ml-2"
+              ><img src="./img/footer2.png" alt="" width="50px" height="35px"
+            /></span>
+            <span class="ml-2"
+              ><img src="./img/footer3.png" alt="" width="50px" height="35px"
+            /></span>
+            <span class="ml-2"
+              ><img src="./img/footer4.png" alt="" width="50px" height="35px"
+            /></span>
+            <span class="ml-2"
+              ><img src="./img/footer5.jpg" alt="" width="50px" height="35px"
+            /></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer navbar end-->
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
