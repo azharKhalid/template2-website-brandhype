@@ -356,4 +356,9 @@ body {
   .testimonials {
     margin-top: -247px;
   }
+  .roundImg {
+    width: 70%;
+    margin: 15px auto;
+    margin-bottom: 25px;
+  }
 }
